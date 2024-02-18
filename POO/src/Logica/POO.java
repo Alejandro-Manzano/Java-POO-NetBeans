@@ -23,6 +23,8 @@ public class POO {
         //CAMBIO DE VALOR
         alu2.setId(4);
         System.out.println(alu2.getId());
+        
+        
     }
     
 }

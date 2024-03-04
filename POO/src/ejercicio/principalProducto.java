@@ -20,6 +20,7 @@ public class principalProducto {
         // Vendiendo los 15 productos que tengo
         producto1.vender(15);
 
+        
         // Intentando vender productos qu eno tengo
         producto1.vender(8);
         System.out.println("Nuevo stock: " + producto1.getStock());

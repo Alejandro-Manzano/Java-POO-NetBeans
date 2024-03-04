@@ -4,16 +4,21 @@ public class Herencia {
     
     public static void main(String[] args) {
         
-        Empleado emple = new Empleado();
+        //Polimorfosis para un array
         
-        //método propio
-        emple.getNum_legajo();
-        //Método heredado de persona
-        emple.getNombre();
+        Persona vector[] = new Persona[5];
+        vector [0] = new Persona();
+        vector [1] = new Empleado();
+        vector [2] = new Consultor();
+        vector [3] = new Jefe();
         
-        Consultor consul = new Consultor();
-        consul.getNum_consultor();
-        consul.getApellido();
+        Persona perso = new Persona();
+        Consultor cons = new Consultor();
+        
+        //permite de padre a hijo
+        perso = cons;
+        //pero no de hijo a padre
+        //cons = perso;
         
     }
     

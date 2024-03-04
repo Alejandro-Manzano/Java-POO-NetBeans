@@ -7,6 +7,7 @@ public class Empleado extends Persona{
     Double sueldo;
 
     public Empleado() {
+        
     }
 
     //Constructor que hereda de Persona mas sus atributos
